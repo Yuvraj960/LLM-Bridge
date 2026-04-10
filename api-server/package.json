@@ -1,0 +1,30 @@
+{
+  "name": "llm-bridge-api",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible API server for free LLM access (ChatGPT & Claude)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": [
+    "llm",
+    "api",
+    "chatgpt",
+    "claude",
+    "openai",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT"
+}
